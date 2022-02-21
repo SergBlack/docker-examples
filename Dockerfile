@@ -1,5 +1,14 @@
-FROM node:14
-WORKDIR /app
-COPY . ./
-RUN npm i
-CMD npm start
+FROM node:16-alpine
+
+# Create app directory
+WORKDIR /usr/src/app
+
+# Install app dependencies
+COPY package*.json ./
+RUN npm install
+
+# Bundle app source
+COPY . .
+RUN npm start
+
+
