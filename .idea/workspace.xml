@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,11 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5440a582-6a54-47d5-8049-2c1671b289ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/1/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/1/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/1/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="24FAxxT9pcJJY6H5GqNafk9eCb1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,14 +39,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -48,8 +58,21 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\WEB\docker-examples" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergei_Osipchuk\Desktop\learning materials\docker-examples\1" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.dev (1)">
+    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/1/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (1)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
       </list>
@@ -87,6 +111,10 @@
       <updated>1643216210985</updated>
       <workItem from="1643216212109" duration="1941000" />
       <workItem from="1643219110578" duration="337000" />
+      <workItem from="1645475052855" duration="332000" />
+      <workItem from="1645556910521" duration="594000" />
+      <workItem from="1645683380863" duration="54000" />
+      <workItem from="1646075241039" duration="984000" />
     </task>
     <servers />
   </component>
@@ -103,28 +131,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="2409" height="414" key="GridCell.Tab.0.bottom" timestamp="1643218168265">
-      <screen x="0" y="0" width="2453" height="1440" />
-    </state>
-    <state width="2409" height="414" key="GridCell.Tab.0.bottom/0.0.2453.1440/0.-1080.1803.1080@0.0.2453.1440" timestamp="1643218168265" />
-    <state width="2409" height="414" key="GridCell.Tab.0.center" timestamp="1643218168265">
-      <screen x="0" y="0" width="2453" height="1440" />
-    </state>
-    <state width="2409" height="414" key="GridCell.Tab.0.center/0.0.2453.1440/0.-1080.1803.1080@0.0.2453.1440" timestamp="1643218168265" />
-    <state width="2409" height="414" key="GridCell.Tab.0.left" timestamp="1643218168264">
-      <screen x="0" y="0" width="2453" height="1440" />
-    </state>
-    <state width="2409" height="414" key="GridCell.Tab.0.left/0.0.2453.1440/0.-1080.1803.1080@0.0.2453.1440" timestamp="1643218168264" />
-    <state width="2409" height="414" key="GridCell.Tab.0.right" timestamp="1643218168265">
-      <screen x="0" y="0" width="2453" height="1440" />
-    </state>
-    <state width="2409" height="414" key="GridCell.Tab.0.right/0.0.2453.1440/0.-1080.1803.1080@0.0.2453.1440" timestamp="1643218168265" />
-    <state x="728" y="365" key="SettingsEditor" timestamp="1643216583749">
-      <screen x="0" y="0" width="2453" height="1440" />
-    </state>
-    <state x="728" y="365" key="SettingsEditor/0.0.2453.1440/0.-1080.1803.1080@0.0.2453.1440" timestamp="1643216583749" />
   </component>
 </project>

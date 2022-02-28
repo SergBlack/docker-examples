@@ -1,7 +1,7 @@
 FROM node:16-alpine
 
 # Create app directory
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Install app dependencies
 COPY package*.json ./
@@ -9,6 +9,4 @@ RUN npm install
 
 # Bundle app source
 COPY . .
-RUN npm start
-
-
+CMD npm run start:dev
