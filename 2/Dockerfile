@@ -7,6 +7,10 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
+EXPOSE 3010
+
 # Bundle app source
 COPY . .
 CMD npm run start:dev
+
+#docker run -p 8000:3010 -d -v "$(PWD)/data:/app/data" <IMAGE_ID>
